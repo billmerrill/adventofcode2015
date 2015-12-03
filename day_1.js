@@ -18,7 +18,8 @@ function part_two_first_basement(input) {
 			return Number(step)+1;
 		}
 	}
+	return "Never";
 }
 
-part_two_first_basement(input);
+var basement_step = part_two_first_basement(input);
 // answer 1797
