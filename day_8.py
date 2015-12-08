@@ -1,6 +1,7 @@
 import string
 from pprint import pprint
 
+
 def part_one():
 
     text_size = 0
@@ -15,7 +16,6 @@ def part_one():
         # n = '"%s"' % n
         return n
 
-
     # with open("day_8_sample.txt", 'rb') as fh:
     with open("day_8_input.txt", 'rb') as fh:
         for line in fh:
@@ -28,8 +28,8 @@ def part_one():
     a = {'text_size': text_size,
          'mem_size': mem_size,
          'esc_size': esc_size,
-         'diff1': text_size-mem_size,
-         'diff2': esc_size-text_size}
+         'diff1': text_size - mem_size,
+         'diff2': esc_size - text_size}
     pprint(a)
 
 part_one()
