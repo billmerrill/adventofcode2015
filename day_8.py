@@ -12,8 +12,6 @@ def part_one():
     def reencode(x):
         n = repr(x)
         n = n.replace('"', '\\"')
-        # n = n.replace("'", "\\'")
-        # n = '"%s"' % n
         return n
 
     # with open("day_8_sample.txt", 'rb') as fh:
